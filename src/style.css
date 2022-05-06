@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --Light-Grayish-Blue: rgb(246, 246, 254);
+}
+
+body {
+  background-color: #fcfcfc; 
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 4.5rem;
+}
+
+.menuHamburguer {
+  display: none;
+}
+
+.container-head {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  margin: 5px;
+  align-items: center;
+  padding: 10px;
+}
+
+.navlinks a {
+  color: rgba(8, 8, 8, 0.801);
+  margin-right: 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navlinks a:hover {
+  opacity: 0.7;
+}
+
+main {
+  margin-bottom: 15px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/*artigo1*/
+
+.article1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--Light-Grayish-Blue);
+}
+
+/*texto1*/
+
+.txt1 {
+  max-width: 400px;
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+/*imagem1*/
+
+#img1 {
+  width: 500px;
+}
+
+#thumb1 {
+  width: 100%;
+}
+
+/*artigo2*/
+
+.article2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--Light-Grayish-Blue);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.txt2 {
+  max-width: 400px;
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+/*imagem2*/
+
+#img2 {
+  width: 500px;
+}
+
+#thumb2 {
+  width: 100%;
+}
+
+/* footer */
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #111;
+  padding-top: 2px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.8rem;
+  margin: 4px 0 3px;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 2px auto;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px 0 1.5rem ;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i {
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover i {
+  color: hsl(263, 53%, 45%);
+}
+
+.footer-bottom{
+  background-color: #000;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+.footer-bottom{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
